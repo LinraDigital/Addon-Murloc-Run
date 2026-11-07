@@ -500,8 +500,9 @@ end
 ------------------------------------------------------------------------
 local BACKDROP = {
   bgFile = "Interface\\Buttons\\WHITE8X8",
-  edgeFile = "Interface\\Buttons\\WHITE8X8",
-  edgeSize = 1,
+  edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",  -- bordure d'origine du jeu
+  edgeSize = 16,
+  insets = { left = 4, right = 4, top = 4, bottom = 4 },
 }
 local TEMPLATE = BackdropTemplateMixin and "BackdropTemplate" or nil
 
@@ -511,7 +512,7 @@ local function Panel(name, parent, w, h)
   if p.SetBackdrop then
     p:SetBackdrop(BACKDROP)
     p:SetBackdropColor(0.05, 0.06, 0.08, 0.92)
-    p:SetBackdropBorderColor(1, 1, 1, 0.12)
+    p:SetBackdropBorderColor(0.8, 0.8, 0.8, 1)
   end
   return p
 end

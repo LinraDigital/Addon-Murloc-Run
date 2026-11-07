@@ -4,7 +4,7 @@
 ## Notes-frFR: Le jeu du dinosaure de Chrome, version Murloc, dans la forêt d'Elwynn. Classements guilde et amis.
 ## Author: Linra Digital
 ## X-Website: https://wow.linradigital.fr
-## Version: 0.1.0
+## Version: 0.1.1
 ## IconTexture: Interface\AddOns\LD_MurlocRun\Media\icon
 ## SavedVariables: LDMurlocRunDB
 
